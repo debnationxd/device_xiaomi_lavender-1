@@ -36,6 +36,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT :="google/coral/coral:11/RQ3A.211001.001/7641976:user/release-keys"
 
-# Pixel Extended Device Maintainers
+# Legion Device Maintainers
 PRODUCT_PROPERTY_OVERRIDES += \
     org.legion.build_maintainer=Debiprasad
