@@ -38,4 +38,4 @@ BUILD_FINGERPRINT :="google/coral/coral:11/RQ3A.211001.001/7641976:user/release-
 
 # Pixel Extended Device Maintainers
 PRODUCT_PROPERTY_OVERRIDES += \
-    org.pex.build_maintainer=Debiprasad
+    org.legion.build_maintainer=Debiprasad
