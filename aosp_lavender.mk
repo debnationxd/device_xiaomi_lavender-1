@@ -15,7 +15,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
-PEX_BUILD_TYPE := OFFICIAL
+PEX_BUILD_TYPE := UNOFFICIAL
 PEX_MAINTAINER := Prashant
 
 # Inherit from lavender device
@@ -38,4 +38,4 @@ BUILD_FINGERPRINT :="google/coral/coral:11/RQ3A.211001.001/7641976:user/release-
 
 # Pixel Extended Device Maintainers
 PRODUCT_PROPERTY_OVERRIDES += \
-    org.pex.build_maintainer=Prashant
+    org.pex.build_maintainer=Debiprasad
