@@ -15,8 +15,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
-PEX_BUILD_TYPE := UNOFFICIAL
-PEX_MAINTAINER := DebNationXD
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -35,7 +33,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="coral-user 11 RQ3A.211001.001 7641976 release-keys"
 
 BUILD_FINGERPRINT :="google/coral/coral:11/RQ3A.211001.001/7641976:user/release-keys"
-
-# Legion Device Maintainers
-PRODUCT_PROPERTY_OVERRIDES += \
-    org.legion.build_maintainer=Debiprasad
