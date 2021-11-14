@@ -20,7 +20,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := syberia_lavender
+PRODUCT_NAME := lavender_syberia
 PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
