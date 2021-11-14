@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lavender_syberia.mk
+    $(LOCAL_DIR)/syberia_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    lavender_syberia-user \
-    lavender_syberia-userdebug \
-    lavender_syberia-eng
+    syberia_lavender-user \
+    syberia_lavender-userdebug \
+    syberia_lavender-eng
